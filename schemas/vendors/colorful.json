@@ -1,0 +1,46 @@
+{
+  "manufacturer": "COLORFUL",
+  "aliases": [],
+  "officialDomains": [
+    "colorful.cn",
+    "en.colorful.cn",
+    "colorfulgroup.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://en.colorful.cn/en/home/ProductSearch?keyword={modelEncoded}",
+      "https://www.colorful.cn/home/Search?keyword={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}

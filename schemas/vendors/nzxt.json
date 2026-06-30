@@ -1,0 +1,43 @@
+{
+  "manufacturer": "NZXT",
+  "aliases": [],
+  "officialDomains": [
+    "nzxt.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://support.nzxt.com/hc/en-us/search?query={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}

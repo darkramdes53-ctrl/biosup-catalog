@@ -1,0 +1,606 @@
+{
+  "manufacturer": "ASROCK",
+  "aliases": [
+    "ASROCK INC"
+  ],
+  "officialDomains": [
+    "asrock.com",
+    "asrock.eu",
+    "asrock.de",
+    "asrock.fr",
+    "asrock.nl",
+    "asrock.it",
+    "asrock.pl"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.asrock.com/mb/search.asp?Model={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [
+      "https://www.asrock.com/support/index.asp?cat=BIOS"
+    ],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "ASRock search.asp по модели обычно быстрее прямого guessing URL."
+    ],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [
+    {
+      "model": "B650M Pro RS",
+      "aliases": [
+        "B650M Pro RS",
+        "ASRock B650M Pro RS"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650M Pro RS",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650M Pro RS WiFi",
+      "aliases": [
+        "B650M Pro RS WiFi",
+        "ASRock B650M Pro RS WiFi"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650M Pro RS WiFi",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650M-HDV/M.2",
+      "aliases": [
+        "B650M-HDV/M.2",
+        "ASRock B650M-HDV/M.2"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650M-HDV/M.2",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650 Pro RS",
+      "aliases": [
+        "B650 Pro RS",
+        "ASRock B650 Pro RS"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650 Pro RS",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650 PG Lightning",
+      "aliases": [
+        "B650 PG Lightning",
+        "ASRock B650 PG Lightning"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650 PG Lightning",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650E Steel Legend WiFi",
+      "aliases": [
+        "B650E Steel Legend WiFi",
+        "ASRock B650E Steel Legend WiFi"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B650E Steel Legend WiFi",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "X670E Steel Legend",
+      "aliases": [
+        "X670E Steel Legend",
+        "ASRock X670E Steel Legend"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=X670E Steel Legend",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "X670E Taichi",
+      "aliases": [
+        "X670E Taichi",
+        "ASRock X670E Taichi"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=X670E Taichi",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "X670E Pro RS",
+      "aliases": [
+        "X670E Pro RS",
+        "ASRock X670E Pro RS"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=X670E Pro RS",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "A620M-HDV/M.2",
+      "aliases": [
+        "A620M-HDV/M.2",
+        "ASRock A620M-HDV/M.2"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=A620M-HDV/M.2",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "A620M Pro RS WiFi",
+      "aliases": [
+        "A620M Pro RS WiFi",
+        "ASRock A620M Pro RS WiFi"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=A620M Pro RS WiFi",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550M Steel Legend",
+      "aliases": [
+        "B550M Steel Legend",
+        "ASRock B550M Steel Legend"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B550M Steel Legend",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550M Pro4",
+      "aliases": [
+        "B550M Pro4",
+        "ASRock B550M Pro4"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B550M Pro4",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550 Pro4",
+      "aliases": [
+        "B550 Pro4",
+        "ASRock B550 Pro4"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B550 Pro4",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550 Phantom Gaming 4",
+      "aliases": [
+        "B550 Phantom Gaming 4",
+        "ASRock B550 Phantom Gaming 4"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B550 Phantom Gaming 4",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "X570 Steel Legend",
+      "aliases": [
+        "X570 Steel Legend",
+        "ASRock X570 Steel Legend"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=X570 Steel Legend",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "Z790 PG Lightning",
+      "aliases": [
+        "Z790 PG Lightning",
+        "ASRock Z790 PG Lightning"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=Z790 PG Lightning",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "Z790 Steel Legend WiFi",
+      "aliases": [
+        "Z790 Steel Legend WiFi",
+        "ASRock Z790 Steel Legend WiFi"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=Z790 Steel Legend WiFi",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "Z790 Pro RS",
+      "aliases": [
+        "Z790 Pro RS",
+        "ASRock Z790 Pro RS"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=Z790 Pro RS",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B760M Pro RS/D4",
+      "aliases": [
+        "B760M Pro RS/D4",
+        "ASRock B760M Pro RS/D4"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B760M Pro RS/D4",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B760M PG Riptide",
+      "aliases": [
+        "B760M PG Riptide",
+        "ASRock B760M PG Riptide"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B760M PG Riptide",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "H610M-HDV/M.2 R2.0",
+      "aliases": [
+        "H610M-HDV/M.2 R2.0",
+        "ASRock H610M-HDV/M.2 R2.0"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=H610M-HDV/M.2 R2.0",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "H610M-HVS/M.2 R2.0",
+      "aliases": [
+        "H610M-HVS/M.2 R2.0",
+        "ASRock H610M-HVS/M.2 R2.0"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=H610M-HVS/M.2 R2.0",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "Z690 Steel Legend",
+      "aliases": [
+        "Z690 Steel Legend",
+        "ASRock Z690 Steel Legend"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=Z690 Steel Legend",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B660M Pro RS",
+      "aliases": [
+        "B660M Pro RS",
+        "ASRock B660M Pro RS"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.asrock.com/mb/search.asp?Model=B660M Pro RS",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    }
+  ],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}

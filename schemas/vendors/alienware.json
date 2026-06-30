@@ -1,0 +1,48 @@
+{
+  "manufacturer": "ALIENWARE",
+  "aliases": [
+    "DELL ALIENWARE"
+  ],
+  "officialDomains": [
+    "dell.com",
+    "downloads.dell.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.dell.com/support/home/en-us?app=drivers&keyword={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Alienware использует Dell Support/Drivers."
+    ],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}

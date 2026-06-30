@@ -1,0 +1,267 @@
+{
+  "manufacturer": "BIOSTAR",
+  "aliases": [
+    "BIOSTAR GROUP"
+  ],
+  "officialDomains": [
+    "biostar.com.tw",
+    "download.biostar.com.tw"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [
+    {
+      "model": "B650MT",
+      "aliases": [
+        "B650MT",
+        "BIOSTAR B650MT"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B650MT",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B650MP-E PRO",
+      "aliases": [
+        "B650MP-E PRO",
+        "BIOSTAR B650MP-E PRO"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B650MP-E PRO",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550MH",
+      "aliases": [
+        "B550MH",
+        "BIOSTAR B550MH"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B550MH",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B550MX/E PRO",
+      "aliases": [
+        "B550MX/E PRO",
+        "BIOSTAR B550MX/E PRO"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B550MX/E PRO",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "A620MP-E PRO",
+      "aliases": [
+        "A620MP-E PRO",
+        "BIOSTAR A620MP-E PRO"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=A620MP-E PRO",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B760MX2-E D4",
+      "aliases": [
+        "B760MX2-E D4",
+        "BIOSTAR B760MX2-E D4"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B760MX2-E D4",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "B660MX-E PRO",
+      "aliases": [
+        "B660MX-E PRO",
+        "BIOSTAR B660MX-E PRO"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=B660MX-E PRO",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "H610MH",
+      "aliases": [
+        "H610MH",
+        "BIOSTAR H610MH"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=H610MH",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "Z790A-SILVER",
+      "aliases": [
+        "Z790A-SILVER",
+        "BIOSTAR Z790A-SILVER"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=Z790A-SILVER",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    },
+    {
+      "model": "X670E VALKYRIE",
+      "aliases": [
+        "X670E VALKYRIE",
+        "BIOSTAR X670E VALKYRIE"
+      ],
+      "supportSlug": "",
+      "supportPageUrl": "https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=&search=X670E VALKYRIE",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
+    }
+  ],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}

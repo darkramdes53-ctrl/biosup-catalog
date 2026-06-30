@@ -1,0 +1,12 @@
+Upload/update through GitHub Desktop:
+
+1. Clone/open darkramdes53-ctrl/biosup-catalog in GitHub Desktop.
+2. Click Repository -> Show in Explorer.
+3. Copy ALL files and folders from this unpacked zip into that repository folder.
+4. Replace existing files when Windows asks.
+5. Return to GitHub Desktop.
+6. Commit message: Update catalog safety and workflows v2.2
+7. Click Commit to main.
+8. Click Push origin.
+
+Do not upload this zip file itself to GitHub. Upload/copy the unpacked contents.

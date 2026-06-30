@@ -1,0 +1,52 @@
+{
+  "manufacturer": "HP",
+  "aliases": [
+    "HEWLETT-PACKARD",
+    "HP INC"
+  ],
+  "officialDomains": [
+    "hp.com",
+    "hpe.com",
+    "support.hp.com",
+    "ftp.hp.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://support.hp.com/us-en/drivers?keyword={modelEncoded}",
+      "https://support.hp.com/us-en/drivers/desktops"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Для HP предпочтительнее product number/SKU; модельный поиск является fallback."
+    ],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
+  },
+  "models": [],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
+}
