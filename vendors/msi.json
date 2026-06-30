@@ -37,7 +37,12 @@
     ],
     "notes": [
       "Для MSI boardId MS-7xxx важнее маркетингового имени; ожидаемый файл часто E7xxxAMS."
-    ]
+    ],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false,
+    "boardIdRecommended": true
   },
   "models": [
     {
@@ -54,7 +59,16 @@
       "revision": "",
       "expectedBiosFilePattern": "E7E28AMS",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B650 TOMAHAWK WIFI",
@@ -68,7 +82,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "B650 GAMING PLUS WIFI",
@@ -86,7 +109,16 @@
       "revision": "",
       "expectedBiosFilePattern": "E7E26AMS",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B650M MORTAR WIFI",
@@ -100,7 +132,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MPG B650 EDGE WIFI",
@@ -114,7 +155,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO B650-P WIFI",
@@ -128,7 +178,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO B650M-A WIFI",
@@ -142,7 +201,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG X670E TOMAHAWK WIFI",
@@ -156,7 +224,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MPG X670E CARBON WIFI",
@@ -170,7 +247,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO X670-P WIFI",
@@ -184,7 +270,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO A620M-E",
@@ -198,7 +293,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO A620M-E DDR4",
@@ -212,7 +316,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B760 TOMAHAWK WIFI",
@@ -226,7 +339,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B760M MORTAR WIFI",
@@ -240,7 +362,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B760M MORTAR WIFI II",
@@ -256,7 +387,16 @@
       "revision": "",
       "expectedBiosFilePattern": "E7E13IMS",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO B760M-P",
@@ -270,7 +410,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO B760-P WIFI DDR4",
@@ -284,7 +433,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "PRO Z790-A WIFI",
@@ -298,7 +456,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG Z790 TOMAHAWK WIFI",
@@ -312,7 +479,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MPG Z790 EDGE WIFI",
@@ -326,7 +502,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MEG Z790 ACE",
@@ -340,7 +525,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "B550-A PRO",
@@ -354,7 +548,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B550 TOMAHAWK",
@@ -368,7 +571,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MAG B550M MORTAR WIFI",
@@ -382,7 +594,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "MPG B550 GAMING PLUS",
@@ -396,7 +617,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     },
     {
       "model": "A520M-A PRO",
@@ -410,7 +640,24 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "boardIdRequiredForSafe": true
     }
-  ]
+  ],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
 }

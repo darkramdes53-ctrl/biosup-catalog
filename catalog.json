@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-06-30",
-  "description": "BiosUP public catalog. Stores only official lookup rules/templates; no BIOS binaries. v35 adds generic vendor templates so every detected model can be resolved without enumerating every board.",
+  "description": "BiosUP public catalog. Stores only official BIOS lookup rules/templates. No BIOS binaries, mirrors, cracks or third-party downloads. v2.1 adds schema validation, lock file, safety metadata and CI workflows.",
   "vendors": [
     {
       "manufacturer": "GIGABYTE",
@@ -91,5 +91,14 @@
       "manufacturer": "INTEL",
       "path": "vendors/intel.json"
     }
-  ]
+  ],
+  "catalogVersion": "2.1.0",
+  "safetyPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "proxyForBiosDownloadsAllowed": false,
+    "safeRequiresFileVerification": true,
+    "gigabyteRequiresRevision": true,
+    "msiRequiresBoardIdWhenAvailable": true
+  }
 }

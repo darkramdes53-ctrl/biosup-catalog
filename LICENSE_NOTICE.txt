@@ -1,0 +1,4 @@
+No firmware, BIOS binaries or vendor files are licensed by this repository.
+
+The catalog data in this repository is intended only as lookup metadata for official vendor support pages.
+If you want to publish this repository under an open-source license, choose and add a formal LICENSE file yourself.

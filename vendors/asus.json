@@ -37,7 +37,11 @@
     ],
     "notes": [
       "ASUS часто отдает BIOS через supportonly или dlcdnets.asus.com."
-    ]
+    ],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
   },
   "models": [
     {
@@ -52,7 +56,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B650_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING B650M-PLUS WIFI",
@@ -66,7 +79,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B650M_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "PRIME B650-PLUS",
@@ -80,7 +102,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B650_PLUS_ASUS_*.CAP"
     },
     {
       "model": "PRIME B650M-A WIFI",
@@ -94,7 +125,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B650M_A_WIFI_ASUS_*.CAP"
     },
     {
       "model": "PRIME B650M-A II",
@@ -108,7 +148,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B650M_A_II_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX B650E-F GAMING WIFI",
@@ -122,7 +171,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_B650E_F_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX B650E-E GAMING WIFI",
@@ -136,7 +194,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_B650E_E_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX B650-A GAMING WIFI",
@@ -150,7 +217,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_B650_A_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX X670E-E GAMING WIFI",
@@ -164,7 +240,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_X670E_E_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG CROSSHAIR X670E HERO",
@@ -178,7 +263,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_CROSSHAIR_X670E_HERO_ASUS_*.CAP"
     },
     {
       "model": "PROART X670E-CREATOR WIFI",
@@ -192,7 +286,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PROART_X670E_CREATOR_WIFI_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING X670E-PLUS WIFI",
@@ -206,7 +309,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_X670E_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "PRIME X670-P WIFI",
@@ -220,7 +332,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_X670_P_WIFI_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING A620M-PLUS WIFI",
@@ -234,7 +355,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_A620M_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "PRIME A620M-A",
@@ -248,7 +378,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_A620M_A_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING Z790-PLUS WIFI",
@@ -262,7 +401,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_Z790_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "PRIME Z790-P WIFI",
@@ -276,7 +424,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_Z790_P_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX Z790-E GAMING WIFI",
@@ -290,7 +447,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_Z790_E_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX Z790-F GAMING WIFI",
@@ -304,7 +470,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_Z790_F_GAMING_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG MAXIMUS Z790 HERO",
@@ -318,7 +493,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_MAXIMUS_Z790_HERO_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING B760-PLUS WIFI",
@@ -332,7 +516,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B760_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING B760M-PLUS WIFI II",
@@ -347,7 +540,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B760M_PLUS_WIFI_II_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING B760M-PLUS WIFI D4",
@@ -361,7 +563,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B760M_PLUS_WIFI_D4_ASUS_*.CAP"
     },
     {
       "model": "PRIME B760M-A WIFI D4",
@@ -375,7 +586,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B760M_A_WIFI_D4_ASUS_*.CAP"
     },
     {
       "model": "PRIME B660M-A WIFI D4",
@@ -389,7 +609,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B660M_A_WIFI_D4_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING B550-PLUS WIFI II",
@@ -403,7 +632,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_B550_PLUS_WIFI_II_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX B550-F GAMING WIFI II",
@@ -417,7 +655,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_B550_F_GAMING_WIFI_II_ASUS_*.CAP"
     },
     {
       "model": "PRIME B550M-A WIFI II",
@@ -431,7 +678,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_B550M_A_WIFI_II_ASUS_*.CAP"
     },
     {
       "model": "TUF GAMING X570-PLUS WIFI",
@@ -445,7 +701,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "TUF_GAMING_X570_PLUS_WIFI_ASUS_*.CAP"
     },
     {
       "model": "ROG STRIX X570-E GAMING WIFI II",
@@ -459,7 +724,16 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "ROG_STRIX_X570_E_GAMING_WIFI_II_ASUS_*.CAP"
     },
     {
       "model": "PRIME H610M-K D4",
@@ -473,7 +747,24 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true,
+      "expectedBiosFilePatternHint": "PRIME_H610M_K_D4_ASUS_*.CAP"
     }
-  ]
+  ],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
 }

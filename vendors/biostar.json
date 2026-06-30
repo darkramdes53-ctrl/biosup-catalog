@@ -28,7 +28,11 @@
       "{modelEncoded}",
       "{modelNoSpaces}"
     ],
-    "notes": []
+    "notes": [],
+    "confidence": "template",
+    "lastChecked": null,
+    "source": "generic_vendor_template",
+    "safeForDirectDownload": false
   },
   "models": [
     {
@@ -43,7 +47,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "B650MP-E PRO",
@@ -57,7 +69,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "B550MH",
@@ -71,7 +91,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "B550MX/E PRO",
@@ -85,7 +113,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "A620MP-E PRO",
@@ -99,7 +135,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "B760MX2-E D4",
@@ -113,7 +157,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "B660MX-E PRO",
@@ -127,7 +179,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "H610MH",
@@ -141,7 +201,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "Z790A-SILVER",
@@ -155,7 +223,15 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     },
     {
       "model": "X670E VALKYRIE",
@@ -169,7 +245,23 @@
       "revision": "",
       "expectedBiosFilePattern": "",
       "revisionPages": [],
-      "latestBios": null
+      "latestBios": null,
+      "confidence": "manual",
+      "lastChecked": null,
+      "source": "official_support_page",
+      "safeForDirectDownload": false,
+      "verifiedLatestBios": null,
+      "notes": [],
+      "revisionRequired": false,
+      "safeWithoutRevision": true
     }
-  ]
+  ],
+  "catalogVersion": "2.1.0",
+  "updatedAt": "2026-06-30",
+  "dataPolicy": {
+    "storesBiosBinaries": false,
+    "officialDomainsOnly": true,
+    "biosDownloadThroughProxyAllowed": false,
+    "safeRequiresFileVerification": true
+  }
 }
