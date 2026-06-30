@@ -1,0 +1,40 @@
+{
+  "manufacturer": "HP",
+  "aliases": [
+    "HEWLETT-PACKARD",
+    "HP INC"
+  ],
+  "officialDomains": [
+    "hp.com",
+    "hpe.com",
+    "support.hp.com",
+    "ftp.hp.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://support.hp.com/us-en/drivers?keyword={modelEncoded}",
+      "https://support.hp.com/us-en/drivers/desktops"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Для HP предпочтительнее product number/SKU; модельный поиск является fallback."
+    ]
+  },
+  "models": []
+}

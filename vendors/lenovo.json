@@ -1,0 +1,39 @@
+{
+  "manufacturer": "LENOVO",
+  "aliases": [
+    "LENOVO GROUP"
+  ],
+  "officialDomains": [
+    "lenovo.com",
+    "support.lenovo.com",
+    "pcsupport.lenovo.com",
+    "download.lenovo.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://support.lenovo.com/us/en/search?query={modelEncoded}",
+      "https://pcsupport.lenovo.com/us/en/search?query={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Для Lenovo лучше MTM/serial; модельный поиск является fallback."
+    ]
+  },
+  "models": []
+}

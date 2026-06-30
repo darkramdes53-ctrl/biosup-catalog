@@ -1,0 +1,36 @@
+{
+  "manufacturer": "ACER",
+  "aliases": [
+    "ACER INC"
+  ],
+  "officialDomains": [
+    "acer.com",
+    "global-download.acer.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.acer.com/us-en/support/drivers-and-manuals?search={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Для Acer лучше SNID/part number; модельный поиск является fallback."
+    ]
+  },
+  "models": []
+}

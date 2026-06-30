@@ -1,0 +1,32 @@
+{
+  "manufacturer": "SUPERMICRO",
+  "aliases": [],
+  "officialDomains": [
+    "supermicro.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.supermicro.com/en/support/resources/downloadcenter/firmware/{modelEncoded}",
+      "https://www.supermicro.com/en/support/resources/downloadcenter"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}

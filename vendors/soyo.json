@@ -1,0 +1,32 @@
+{
+  "manufacturer": "SOYO",
+  "aliases": [],
+  "officialDomains": [
+    "soyocn.net",
+    "soyo.com.cn"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.soyocn.net/search?q={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}

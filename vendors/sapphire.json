@@ -1,0 +1,31 @@
+{
+  "manufacturer": "SAPPHIRE",
+  "aliases": [],
+  "officialDomains": [
+    "sapphiretech.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.sapphiretech.com/en/search?keyword={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}

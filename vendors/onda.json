@@ -1,0 +1,32 @@
+{
+  "manufacturer": "ONDA",
+  "aliases": [],
+  "officialDomains": [
+    "onda.cn",
+    "onda.com.cn"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.onda.cn/search?keyword={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}

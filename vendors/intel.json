@@ -1,0 +1,32 @@
+{
+  "manufacturer": "INTEL",
+  "aliases": [],
+  "officialDomains": [
+    "intel.com",
+    "downloadmirror.intel.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.intel.com/content/www/us/en/search.html?ws=text#q={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}

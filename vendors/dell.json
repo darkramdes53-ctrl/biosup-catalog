@@ -1,0 +1,38 @@
+{
+  "manufacturer": "DELL",
+  "aliases": [
+    "ALIENWARE"
+  ],
+  "officialDomains": [
+    "dell.com",
+    "downloads.dell.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.dell.com/support/home/en-us?app=drivers&keyword={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [
+      "https://www.dell.com/support/home/en-us?app=drivers"
+    ],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "Для Dell/Alienware лучше Service Tag; модельный поиск является fallback."
+    ]
+  },
+  "models": []
+}

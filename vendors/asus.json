@@ -1,0 +1,479 @@
+{
+  "manufacturer": "ASUS",
+  "aliases": [
+    "ASUSTEK",
+    "ROG"
+  ],
+  "officialDomains": [
+    "asus.com",
+    "rog.asus.com",
+    "dlcdnets.asus.com"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.asus.com/supportonly/{slugLower}/helpdesk_bios/",
+      "https://www.asus.com/motherboards-components/motherboards/all-series/{slugLower}/helpdesk_bios/",
+      "https://rog.asus.com/motherboards/rog-strix/{slugLower}/helpdesk_bios/"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [
+      "https://www.asus.com/support/download-center/?keyword={modelEncoded}",
+      "https://www.asus.com/support/Download-Center/"
+    ],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": [
+      "ASUS часто отдает BIOS через supportonly или dlcdnets.asus.com."
+    ]
+  },
+  "models": [
+    {
+      "model": "TUF GAMING B650-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING B650-PLUS WIFI",
+        "ASUS TUF GAMING B650-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-b650-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b650-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING B650M-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING B650M-PLUS WIFI",
+        "ASUS TUF GAMING B650M-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-b650m-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b650m-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B650-PLUS",
+      "aliases": [
+        "PRIME B650-PLUS",
+        "ASUS PRIME B650-PLUS"
+      ],
+      "supportSlug": "prime-b650-plus",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b650-plus/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B650M-A WIFI",
+      "aliases": [
+        "PRIME B650M-A WIFI",
+        "ASUS PRIME B650M-A WIFI"
+      ],
+      "supportSlug": "prime-b650m-a-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b650m-a-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B650M-A II",
+      "aliases": [
+        "PRIME B650M-A II",
+        "ASUS PRIME B650M-A II"
+      ],
+      "supportSlug": "prime-b650m-a-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b650m-a-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX B650E-F GAMING WIFI",
+      "aliases": [
+        "ROG STRIX B650E-F GAMING WIFI",
+        "ASUS ROG STRIX B650E-F GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-b650e-f-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-b650e-f-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX B650E-E GAMING WIFI",
+      "aliases": [
+        "ROG STRIX B650E-E GAMING WIFI",
+        "ASUS ROG STRIX B650E-E GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-b650e-e-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-b650e-e-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX B650-A GAMING WIFI",
+      "aliases": [
+        "ROG STRIX B650-A GAMING WIFI",
+        "ASUS ROG STRIX B650-A GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-b650-a-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-b650-a-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX X670E-E GAMING WIFI",
+      "aliases": [
+        "ROG STRIX X670E-E GAMING WIFI",
+        "ASUS ROG STRIX X670E-E GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-x670e-e-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-x670e-e-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG CROSSHAIR X670E HERO",
+      "aliases": [
+        "ROG CROSSHAIR X670E HERO",
+        "ASUS ROG CROSSHAIR X670E HERO"
+      ],
+      "supportSlug": "rog-crosshair-x670e-hero",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-crosshair-x670e-hero/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PROART X670E-CREATOR WIFI",
+      "aliases": [
+        "PROART X670E-CREATOR WIFI",
+        "ASUS PROART X670E-CREATOR WIFI"
+      ],
+      "supportSlug": "proart-x670e-creator-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/proart-x670e-creator-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING X670E-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING X670E-PLUS WIFI",
+        "ASUS TUF GAMING X670E-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-x670e-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-x670e-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME X670-P WIFI",
+      "aliases": [
+        "PRIME X670-P WIFI",
+        "ASUS PRIME X670-P WIFI"
+      ],
+      "supportSlug": "prime-x670-p-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-x670-p-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING A620M-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING A620M-PLUS WIFI",
+        "ASUS TUF GAMING A620M-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-a620m-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-a620m-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME A620M-A",
+      "aliases": [
+        "PRIME A620M-A",
+        "ASUS PRIME A620M-A"
+      ],
+      "supportSlug": "prime-a620m-a",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-a620m-a/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING Z790-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING Z790-PLUS WIFI",
+        "ASUS TUF GAMING Z790-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-z790-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-z790-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME Z790-P WIFI",
+      "aliases": [
+        "PRIME Z790-P WIFI",
+        "ASUS PRIME Z790-P WIFI"
+      ],
+      "supportSlug": "prime-z790-p-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-z790-p-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX Z790-E GAMING WIFI",
+      "aliases": [
+        "ROG STRIX Z790-E GAMING WIFI",
+        "ASUS ROG STRIX Z790-E GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-z790-e-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-z790-e-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX Z790-F GAMING WIFI",
+      "aliases": [
+        "ROG STRIX Z790-F GAMING WIFI",
+        "ASUS ROG STRIX Z790-F GAMING WIFI"
+      ],
+      "supportSlug": "rog-strix-z790-f-gaming-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-z790-f-gaming-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG MAXIMUS Z790 HERO",
+      "aliases": [
+        "ROG MAXIMUS Z790 HERO",
+        "ASUS ROG MAXIMUS Z790 HERO"
+      ],
+      "supportSlug": "rog-maximus-z790-hero",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-maximus-z790-hero/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING B760-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING B760-PLUS WIFI",
+        "ASUS TUF GAMING B760-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-b760-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b760-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING B760M-PLUS WIFI II",
+      "aliases": [
+        "TUF GAMING B760M-PLUS WIFI II",
+        "ASUS TUF GAMING B760M-PLUS WIFI II",
+        "TUF-GAMING-B760M-PLUS-WIFI-II"
+      ],
+      "supportSlug": "tuf-gaming-b760m-plus-wifi-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b760m-plus-wifi-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING B760M-PLUS WIFI D4",
+      "aliases": [
+        "TUF GAMING B760M-PLUS WIFI D4",
+        "ASUS TUF GAMING B760M-PLUS WIFI D4"
+      ],
+      "supportSlug": "tuf-gaming-b760m-plus-wifi-d4",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b760m-plus-wifi-d4/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B760M-A WIFI D4",
+      "aliases": [
+        "PRIME B760M-A WIFI D4",
+        "ASUS PRIME B760M-A WIFI D4"
+      ],
+      "supportSlug": "prime-b760m-a-wifi-d4",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b760m-a-wifi-d4/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B660M-A WIFI D4",
+      "aliases": [
+        "PRIME B660M-A WIFI D4",
+        "ASUS PRIME B660M-A WIFI D4"
+      ],
+      "supportSlug": "prime-b660m-a-wifi-d4",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b660m-a-wifi-d4/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING B550-PLUS WIFI II",
+      "aliases": [
+        "TUF GAMING B550-PLUS WIFI II",
+        "ASUS TUF GAMING B550-PLUS WIFI II"
+      ],
+      "supportSlug": "tuf-gaming-b550-plus-wifi-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-b550-plus-wifi-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX B550-F GAMING WIFI II",
+      "aliases": [
+        "ROG STRIX B550-F GAMING WIFI II",
+        "ASUS ROG STRIX B550-F GAMING WIFI II"
+      ],
+      "supportSlug": "rog-strix-b550-f-gaming-wifi-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-b550-f-gaming-wifi-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME B550M-A WIFI II",
+      "aliases": [
+        "PRIME B550M-A WIFI II",
+        "ASUS PRIME B550M-A WIFI II"
+      ],
+      "supportSlug": "prime-b550m-a-wifi-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-b550m-a-wifi-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "TUF GAMING X570-PLUS WIFI",
+      "aliases": [
+        "TUF GAMING X570-PLUS WIFI",
+        "ASUS TUF GAMING X570-PLUS WIFI"
+      ],
+      "supportSlug": "tuf-gaming-x570-plus-wifi",
+      "supportPageUrl": "https://www.asus.com/supportonly/tuf-gaming-x570-plus-wifi/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "ROG STRIX X570-E GAMING WIFI II",
+      "aliases": [
+        "ROG STRIX X570-E GAMING WIFI II",
+        "ASUS ROG STRIX X570-E GAMING WIFI II"
+      ],
+      "supportSlug": "rog-strix-x570-e-gaming-wifi-ii",
+      "supportPageUrl": "https://www.asus.com/supportonly/rog-strix-x570-e-gaming-wifi-ii/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    },
+    {
+      "model": "PRIME H610M-K D4",
+      "aliases": [
+        "PRIME H610M-K D4",
+        "ASUS PRIME H610M-K D4"
+      ],
+      "supportSlug": "prime-h610m-k-d4",
+      "supportPageUrl": "https://www.asus.com/supportonly/prime-h610m-k-d4/helpdesk_bios/",
+      "boardId": "",
+      "revision": "",
+      "expectedBiosFilePattern": "",
+      "revisionPages": [],
+      "latestBios": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-06-30",
+  "description": "BiosUP public catalog. Stores only official lookup rules/templates; no BIOS binaries. v35 adds generic vendor templates so every detected model can be resolved without enumerating every board.",
+  "vendors": [
+    {
+      "manufacturer": "GIGABYTE",
+      "path": "vendors/gigabyte.json"
+    },
+    {
+      "manufacturer": "ASUS",
+      "path": "vendors/asus.json"
+    },
+    {
+      "manufacturer": "MSI",
+      "path": "vendors/msi.json"
+    },
+    {
+      "manufacturer": "ASROCK",
+      "path": "vendors/asrock.json"
+    },
+    {
+      "manufacturer": "BIOSTAR",
+      "path": "vendors/biostar.json"
+    },
+    {
+      "manufacturer": "DELL",
+      "path": "vendors/dell.json"
+    },
+    {
+      "manufacturer": "ALIENWARE",
+      "path": "vendors/alienware.json"
+    },
+    {
+      "manufacturer": "HP",
+      "path": "vendors/hp.json"
+    },
+    {
+      "manufacturer": "LENOVO",
+      "path": "vendors/lenovo.json"
+    },
+    {
+      "manufacturer": "ACER",
+      "path": "vendors/acer.json"
+    },
+    {
+      "manufacturer": "FUJITSU",
+      "path": "vendors/fujitsu.json"
+    },
+    {
+      "manufacturer": "SUPERMICRO",
+      "path": "vendors/supermicro.json"
+    },
+    {
+      "manufacturer": "EVGA",
+      "path": "vendors/evga.json"
+    },
+    {
+      "manufacturer": "COLORFUL",
+      "path": "vendors/colorful.json"
+    },
+    {
+      "manufacturer": "NZXT",
+      "path": "vendors/nzxt.json"
+    },
+    {
+      "manufacturer": "MAXSUN",
+      "path": "vendors/maxsun.json"
+    },
+    {
+      "manufacturer": "ECS",
+      "path": "vendors/ecs.json"
+    },
+    {
+      "manufacturer": "JETWAY",
+      "path": "vendors/jetway.json"
+    },
+    {
+      "manufacturer": "SOYO",
+      "path": "vendors/soyo.json"
+    },
+    {
+      "manufacturer": "ONDA",
+      "path": "vendors/onda.json"
+    },
+    {
+      "manufacturer": "SAPPHIRE",
+      "path": "vendors/sapphire.json"
+    },
+    {
+      "manufacturer": "INTEL",
+      "path": "vendors/intel.json"
+    }
+  ]
+}

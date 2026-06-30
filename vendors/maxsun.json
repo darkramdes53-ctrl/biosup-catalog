@@ -1,0 +1,33 @@
+{
+  "manufacturer": "MAXSUN",
+  "aliases": [],
+  "officialDomains": [
+    "maxsun.com",
+    "maxsun.com.cn"
+  ],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": [
+      "https://www.maxsun.com.cn/search?q={modelEncoded}",
+      "https://www.maxsun.com/search?q={modelEncoded}"
+    ],
+    "revisionPageTemplates": [],
+    "searchPageTemplates": [],
+    "directDownloadPathHints": [
+      "BIOS",
+      "Firmware",
+      "UEFI",
+      "support",
+      "download"
+    ],
+    "slugVariants": [
+      "{slug}",
+      "{slugLower}",
+      "{slugUpper}",
+      "{modelEncoded}",
+      "{modelNoSpaces}"
+    ],
+    "notes": []
+  },
+  "models": []
+}
