@@ -1,0 +1,7 @@
+Upload/copy only these two missing files into the root of your biosup-catalog repository:
+
+.github/workflows/release-catalog.yml
+.gitattributes
+
+Then commit and push:
+Add missing release workflow and gitattributes
