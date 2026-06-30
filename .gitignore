@@ -1,0 +1,24 @@
+# Build and editor output
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.log
+
+# Never commit downloaded firmware or release bundles
+*.zip
+*.7z
+*.rar
+*.iso
+*.exe
+*.msi
+*.cap
+*.rom
+*.bin
+*.ami
+*.fd
+*.bio
+publish/
+dist/
+release/
