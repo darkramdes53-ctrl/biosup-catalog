@@ -1,14 +1,11 @@
-# Security policy
+# Security Policy
 
-Do not report or add unofficial BIOS download mirrors.
+Report unsafe BIOS links, wrong model matches, third-party mirrors, or binary files through GitHub Issues.
 
-Report these problems:
+Rules:
 
-- An official domain is missing.
-- A listed support page points to the wrong model.
-- A Gigabyte model is missing revision handling.
-- An MSI model has a wrong board-id.
-- A catalog file contains binary firmware.
-- A direct download URL points outside official domains.
-
-Do not attach BIOS files to issues.
+- BIOS files are not stored in this repository.
+- Download links must stay on official vendor domains.
+- Proxy lists must not be committed.
+- Free proxies must not be used for BIOS downloads.
+- SAFE status belongs in the application only after file verification.

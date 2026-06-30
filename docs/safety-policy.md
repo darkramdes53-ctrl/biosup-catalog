@@ -1,28 +1,25 @@
 # Safety policy
 
-This repository must stay data-only.
+The catalog must stay conservative.
 
-Allowed:
+Hard rules:
 
-- Official support pages.
-- Official domain lists.
-- Model aliases.
-- Board IDs.
-- Revision pages.
-- Expected BIOS file patterns.
-- Hash metadata for verified files.
+- No BIOS files.
+- No firmware binaries.
+- No mirrors.
+- No cracked tools.
+- No EXE installers.
+- No proxy lists.
+- No private logs.
+- No user serial numbers.
+- No local IP addresses.
 
-Forbidden:
+Application rules:
 
-- BIOS files.
-- Firmware binaries.
-- Vendor ZIP archives.
-- EXE updaters.
-- Mirrors.
-- Cracks.
-- Proxy lists.
-- User logs.
-- Hardware serial numbers.
-- Private device data.
-
-A catalog entry only helps BiosUP find a candidate. BiosUP must still verify the downloaded file before it writes SAFE.
+- Do not trust a link only because it ends with `.zip`.
+- Block HTML instead of ZIP.
+- Block very small files.
+- Check official domains after redirects.
+- Check archive contents.
+- For Gigabyte, require motherboard revision before SAFE.
+- For MSI, prefer board-id checks.

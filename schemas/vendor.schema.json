@@ -1,196 +1,40 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/darkramdes53-ctrl/biosup-catalog/main/schemas/vendor.schema.json",
-  "title": "BiosUP vendor catalog file",
+  "$id": "https://github.com/darkramdes53-ctrl/biosup-catalog/schemas/vendor.schema.json",
+  "title": "BiosUP vendor catalog",
   "type": "object",
-  "additionalProperties": true,
-  "required": [
-    "manufacturer",
-    "officialDomains",
-    "genericRules",
-    "models"
-  ],
+  "required": ["manufacturer", "aliases", "officialDomains", "genericRules", "models"],
   "properties": {
-    "manufacturer": {
-      "type": "string",
-      "minLength": 1
-    },
-    "catalogVersion": {
-      "type": "string"
-    },
-    "updatedAt": {
-      "type": "string"
-    },
-    "aliases": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "officialDomains": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "string",
-        "pattern": "^[A-Za-z0-9.-]+$"
-      }
-    },
-    "dataPolicy": {
-      "type": "object"
-    },
-    "genericRules": {
-      "type": "object",
-      "additionalProperties": true,
-      "required": [
-        "enabled",
-        "supportPageTemplates"
-      ],
-      "properties": {
-        "enabled": {
-          "type": "boolean"
-        },
-        "supportPageTemplates": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "revisionPageTemplates": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "searchPageTemplates": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "directDownloadPathHints": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "slugVariants": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "notes": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "confidence": {
-          "type": "string"
-        },
-        "lastChecked": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "source": {
-          "type": "string"
-        },
-        "safeForDirectDownload": {
-          "type": "boolean"
-        }
-      }
-    },
+    "manufacturer": { "type": "string", "minLength": 1 },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "officialDomains": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "genericRules": { "type": "object", "additionalProperties": true },
     "models": {
       "type": "array",
       "items": {
         "type": "object",
-        "additionalProperties": true,
-        "required": [
-          "model",
-          "aliases",
-          "supportSlug",
-          "supportPageUrl",
-          "boardId",
-          "revision",
-          "expectedBiosFilePattern",
-          "revisionPages",
-          "latestBios"
-        ],
+        "required": ["model"],
         "properties": {
-          "model": {
-            "type": "string",
-            "minLength": 1
-          },
-          "aliases": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "supportSlug": {
-            "type": "string"
-          },
-          "supportPageUrl": {
-            "type": "string"
-          },
-          "boardId": {
-            "type": "string"
-          },
-          "revision": {
-            "type": "string"
-          },
-          "expectedBiosFilePattern": {
-            "type": "string"
-          },
-          "revisionPages": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "latestBios": {
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "verifiedLatestBios": {
-            "type": [
-              "object",
-              "null"
-            ]
-          },
-          "confidence": {
-            "type": "string"
-          },
-          "lastChecked": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "source": {
-            "type": "string"
-          },
-          "safeForDirectDownload": {
-            "type": "boolean"
-          },
-          "revisionRequired": {
-            "type": "boolean"
-          },
-          "safeWithoutRevision": {
-            "type": "boolean"
-          },
-          "notes": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        }
+          "model": { "type": "string", "minLength": 1 },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "supportSlug": { "type": "string" },
+          "supportPageUrl": { "type": "string" },
+          "boardId": { "type": "string" },
+          "revision": { "type": "string" },
+          "revisionRequired": { "type": "boolean" },
+          "safeWithoutRevision": { "type": "boolean" },
+          "expectedBiosFilePattern": { "type": "string" },
+          "confidence": { "type": "string" },
+          "lastChecked": { "type": "string" },
+          "source": { "type": "string" },
+          "notes": { "type": "array", "items": { "type": "string" } },
+          "latestBios": { "type": ["object", "null"], "additionalProperties": true },
+          "verifiedLatestBios": { "type": ["object", "null"], "additionalProperties": true },
+          "revisionPages": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
       }
     }
-  }
+  },
+  "additionalProperties": true
 }

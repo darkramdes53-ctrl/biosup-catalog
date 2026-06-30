@@ -1,0 +1,12 @@
+{
+  "manufacturer": "BAD",
+  "aliases": ["BAD"],
+  "officialDomains": ["vendor.example"],
+  "genericRules": {},
+  "models": [
+    {
+      "model": "BAD BOARD",
+      "supportPageUrl": "https://drive.google.com/file/example"
+    }
+  ]
+}

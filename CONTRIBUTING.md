@@ -1,19 +1,11 @@
 # Contributing
 
-Before opening a pull request:
+Use small changes. Keep vendor files readable.
 
-1. Do not add BIOS files.
-2. Add only official vendor links.
-3. Keep vendor JSON formatted with two-space indentation.
-4. Run validation scripts.
-5. Explain which official support page you used.
-6. For Gigabyte, include revision notes.
-7. For MSI, include board-id when known.
+Before a pull request:
 
-Validation:
-
-```bash
-python scripts/format_json.py
-python scripts/build_lock.py
-python scripts/validate_catalog.py
-```
+1. Do not add BIOS files or binaries.
+2. Use official vendor pages only.
+3. Run `python scripts/validate_catalog.py`.
+4. Run `python scripts/build_lock.py` after catalog or vendor changes.
+5. Commit the updated `catalog.lock.json`.

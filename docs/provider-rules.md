@@ -2,30 +2,18 @@
 
 ## ASUS
 
-- Prefer `supportonly/{slug}/helpdesk_bios/` pages.
-- Do not parse chipset names like B650, B850, X670 as BIOS versions.
-- Prefer version numbers from BIOS package file names.
-- ZIP packages should contain CAP files.
+Use official ASUS support pages. BIOS archives usually contain `.CAP` files. Do not treat chipset names like B650, B850, X670, or X870 as BIOS versions.
 
 ## MSI
 
-- Use board-id when available.
-- Expected pattern should look like `E7E28AMS`.
-- Never create MSI.ROM without board-id confirmation.
+Prefer board-id matching. MSI BIOS files often use patterns like `E7E28AMS`.
 
 ## Gigabyte
 
-- Revision matters.
-- Set `revisionRequired` to true.
-- Set `safeWithoutRevision` to false.
-- When revision is unknown, BiosUP should prepare separate revision folders or stop for user review.
+Revision matters. The same board name can have different BIOS pages for rev. 1.0, 1.1, 1.2, and newer.
+
+Do not mark Gigabyte results safe without revision verification.
 
 ## ASRock
 
-- Prefer BIOS table parsing over loose page links.
-- Check ROM/CAP/BIN payloads after extraction.
-
-## OEM vendors
-
-Dell, HP, Lenovo, Acer and Fujitsu may provide EXE packages.
-BiosUP should not blindly treat OEM EXE files as flash-ready motherboard BIOS files.
+Prefer BIOS table parsing from official support pages. Validate archive contents after download.

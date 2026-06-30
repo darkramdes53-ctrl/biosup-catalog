@@ -1,0 +1,10 @@
+{
+  "manufacturer": "EXAMPLE",
+  "aliases": ["EXAMPLE"],
+  "officialDomains": ["example.com"],
+  "genericRules": {
+    "enabled": true,
+    "supportPageTemplates": ["https://www.example.com/{slug}/support"]
+  },
+  "models": []
+}

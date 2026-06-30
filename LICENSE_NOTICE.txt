@@ -1,4 +1,5 @@
-No firmware, BIOS binaries or vendor files are licensed by this repository.
+BiosUP Catalog stores lookup rules and official vendor page metadata only.
 
-The catalog data in this repository is intended only as lookup metadata for official vendor support pages.
-If you want to publish this repository under an open-source license, choose and add a formal LICENSE file yourself.
+Do not add BIOS files, firmware binaries, cracked tools, mirrors, packed EXE installers, proxy lists, API keys, private logs, or user hardware reports.
+
+Each catalog entry must point only to official vendor domains.

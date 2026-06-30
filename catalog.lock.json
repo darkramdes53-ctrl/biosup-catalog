@@ -1,162 +1,162 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.1.0",
+  "catalogVersion": "",
   "generatedAt": "2026-06-30T00:00:00Z",
-  "catalogSha256": "3b0f95f00f41bd2e7dc1f47b13b45d602ae8510a074a4626228382332e55ba81",
+  "catalogSha256": "4fffe415d478a250adedd5a62e1eca9a2f390142d19edcdaf682a0ec0c3bc41d",
   "vendorCount": 22,
   "modelCount": 128,
   "vendors": [
     {
       "manufacturer": "GIGABYTE",
       "path": "vendors/gigabyte.json",
-      "sha256": "386d07d4322436f04775ea370285a32f5a8d65494ff706d1642f1c563c108c59",
+      "sha256": "cb9b5790fea57cae94767b65c20aec17508abf7c2faf766945ed628242049aeb",
       "models": 36,
       "officialDomains": 9
     },
     {
       "manufacturer": "ASUS",
       "path": "vendors/asus.json",
-      "sha256": "f115fbf518b57c149b88b155923296e13d10f59f52a16fcf86991c72400b02d4",
+      "sha256": "19e123d5c3e7c3a512a7fbb00049808a577a867c3de47ab08c44fe32357bf9ee",
       "models": 31,
       "officialDomains": 3
     },
     {
       "manufacturer": "MSI",
       "path": "vendors/msi.json",
-      "sha256": "4efc7502cf3062e7ee8bb962db6ae3775e87ba2a0ef42646a943faa9ca02fa5d",
+      "sha256": "3165df4e6e17a4582f2e924f6ad4f7440b3b5a3073004c1da14d39cd4a589c52",
       "models": 26,
       "officialDomains": 2
     },
     {
       "manufacturer": "ASROCK",
       "path": "vendors/asrock.json",
-      "sha256": "e71f4fd6cad225f10b07505c167ae7395d08180a93e28fbbdc29d1a9e9df590c",
+      "sha256": "947efef831bb737d6f9c7fe8dbece1c8e561c98dd07503f1b0753d8a9c795ffa",
       "models": 25,
       "officialDomains": 7
     },
     {
       "manufacturer": "BIOSTAR",
       "path": "vendors/biostar.json",
-      "sha256": "5f6ba79a8f85aa9c960b4aaea0b5ff952f2ba6fcda82676e6bcbf13372f29b6a",
+      "sha256": "8723c59a4340fa093d5ef42333a7215c202548ab475b37c555c986cced8cccb4",
       "models": 10,
       "officialDomains": 2
     },
     {
       "manufacturer": "DELL",
       "path": "vendors/dell.json",
-      "sha256": "9b2e9e42fce233df41167ffdb0e9878c984a975633161c1bc301906adc43a4ef",
+      "sha256": "3eedc4ee245b669040657930c0d44f0001e5063f55c779b2190c2bf657bd71b6",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "ALIENWARE",
       "path": "vendors/alienware.json",
-      "sha256": "a2f6375fe89a7c81f701c11e4eb9ad5a081682bb15558e97657248c02da8ecd7",
+      "sha256": "47e05f64170c4ddef5f59aadbc83b889ce0dfc9c678e4340f768c679ab30ff17",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "HP",
       "path": "vendors/hp.json",
-      "sha256": "ddd5383259f54d3a904deed4dfc32d4a6dcb29239cb9c758481700e73b3943e2",
+      "sha256": "7d7025701fcbba2cfbe7b282f609a4f85d47801ae732c39af2834779016e1843",
       "models": 0,
       "officialDomains": 4
     },
     {
       "manufacturer": "LENOVO",
       "path": "vendors/lenovo.json",
-      "sha256": "67fcba3633b1136e587e391338b7210fbb035d3b4573558041ab13bc2557d9c1",
+      "sha256": "f4356af4b25ac7dfc08d7e6edc198c023c0e797f107ddc912728fb5e7165e6fd",
       "models": 0,
       "officialDomains": 4
     },
     {
       "manufacturer": "ACER",
       "path": "vendors/acer.json",
-      "sha256": "8efebd6dbc0780a4aecd478370491981a3c7f9575c88414d54c3fd52b1c63754",
+      "sha256": "199ffa0614a65dacaeeef25e71f3cf728b18d93faa8c515a99232672e1c943a6",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "FUJITSU",
       "path": "vendors/fujitsu.json",
-      "sha256": "6229b2e7898f264b61d1aecb64562b887a995528226ad2232e3083494cadf374",
+      "sha256": "2f2e0504eb7396425357766bd2af5f47243036fa9f78867c887d46315d017a84",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "SUPERMICRO",
       "path": "vendors/supermicro.json",
-      "sha256": "409d94996672ebab7faf66ed54672e5ffcfa8314c40ad77767b96bb36b8db301",
+      "sha256": "b48047df4fed0674918776900b4b3886643fd43031526342aae9289f8b939427",
       "models": 0,
       "officialDomains": 1
     },
     {
       "manufacturer": "EVGA",
       "path": "vendors/evga.json",
-      "sha256": "9113ca3b0a90215dd3d7d137b61dcf2a67908c9e9a215590429affc9a4e90d87",
+      "sha256": "59a088ab78e54f7c3367438eb39cb5daefbce63a7637e503a043c7f661d1f43e",
       "models": 0,
       "officialDomains": 1
     },
     {
       "manufacturer": "COLORFUL",
       "path": "vendors/colorful.json",
-      "sha256": "a1d736bed0630d438b8971aba9c5b7fe262457a1e69c4c34aa5457ce7922fa00",
+      "sha256": "1fe7496ae44f76f90f0a1edab6cc5c910dc1b86db80bb31617761851dfb58be5",
       "models": 0,
       "officialDomains": 3
     },
     {
       "manufacturer": "NZXT",
       "path": "vendors/nzxt.json",
-      "sha256": "59393f080dcb9f58c291f8b4171575f0bffcfa23ca7729efb52bbb2ad7c0d4e5",
+      "sha256": "d96fbb64e01b0bb4a182e1d8cd216bea014ffc04b35ea78571201cfd291df7e3",
       "models": 0,
       "officialDomains": 1
     },
     {
       "manufacturer": "MAXSUN",
       "path": "vendors/maxsun.json",
-      "sha256": "4933629cb4083f11877a01df2187e8452187ce2087f1a556bb5d9f99a8d7a287",
+      "sha256": "746a9393946ffd0b803316e988e1fa9be396b5381cb11aef7873516f44d250cf",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "ECS",
       "path": "vendors/ecs.json",
-      "sha256": "c6beeaa0fd0ac30c06c26494237e0d067b5b19f163af65ff084466f9cc506313",
+      "sha256": "1ed3016e521f05b0804a98359aea7bd4d2cf2b2fb1bfbac27c498471a72b4970",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "JETWAY",
       "path": "vendors/jetway.json",
-      "sha256": "16ba09eee0bc9c4849b7800caea6dca9ad133eb9521ee0850fee38ef988f57bc",
+      "sha256": "37533a30e2cca66818df567b8febc24349f8277d822443ae98f95b426b9c6895",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "SOYO",
       "path": "vendors/soyo.json",
-      "sha256": "13000a0325d513f6bee199183a12ab54d0102abba5d87ff0849965fbb5d3e3f1",
+      "sha256": "b66d70791990d21a754fb20ac3ff2060706e14be536187372582cd264a2175ac",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "ONDA",
       "path": "vendors/onda.json",
-      "sha256": "0ea5ef5cd25b0823f980d89313880849ae560cdd7217d5c7112fbb81dd89c2e4",
+      "sha256": "8d682d3d71cb96b932058d1d2017bd6f30f80822d69bbc5ed3fa535c2f5bcf4b",
       "models": 0,
       "officialDomains": 2
     },
     {
       "manufacturer": "SAPPHIRE",
       "path": "vendors/sapphire.json",
-      "sha256": "a36f1568ebbaa10a446975907203f35213e2d389ed18ce7ce7a9c114bf59b2c5",
+      "sha256": "3ff3a787537015294c6ebb1552ce5c390c828464e412840ee1ec778e0bda1d34",
       "models": 0,
       "officialDomains": 1
     },
     {
       "manufacturer": "INTEL",
       "path": "vendors/intel.json",
-      "sha256": "3e04b9381a0e5c63b8bf58617f4cb712717f865ab6d236a175c66f7cd3a11084",
+      "sha256": "4b4bda175bd0a12be888bf79eba7882c1b4b88448f56a498dcf3587b372e5e48",
       "models": 0,
       "officialDomains": 2
     }
